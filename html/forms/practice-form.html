@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+
+<form name="Enter to Win Vacation" action="file:///Users/Megan/devbootcamp/phase-0-tracks/html/forms/success.html" method="post">
+<fieldset>
+	<div>
+		<label>First Name</label>
+		<input type="text" name="firstname">
+	</div>
+	<div>
+		<label>Last Name</label>
+		<input type="text" name="lastname">
+	 </div>
+	<div>
+		<label>Email Address</label>
+		<input type="email" name="email">
+	</div>
+	<div>
+		<label>Password</label>
+		<input type="password" name="password">
+	</div>
+</fieldset>
+
+<fieldset>
+	<div>
+		<label>Type of Vaction</label>
+		<select name="Destination">
+			<option value="Europe">Europe</option>
+			<option value ="South America">South America</option>
+			<option value="Caribbean">Caribbean</option>
+			<option value="Antarctica">Antarctica</option>
+		</select>
+	</div>
+	<div>
+      <label>Choose departure date:</label>
+      <input type="date" name="date">
+    </div>
+</fieldset>
+
+<textarea rows="6" cols="50" name="comment" form="usrform">
+Tell us why you want to win this cruise...</textarea>
+
+<button type="submit">Enter to win!</button>
+
+</form>
+
+</body>
+</html>
