@@ -1,0 +1,16 @@
+How to use an elevator
+- if going up
+  - hit the 'up' button
+-else
+  - hit the down button
+- wait for doors to open
+- walk in
+- hit close doors button
+- press button for desired floor
+- until your floor button dings
+  - wait silently
+- once door opens, walk out of the elevator
+
+
+
+
