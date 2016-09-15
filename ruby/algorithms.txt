@@ -14,7 +14,7 @@ How to use an elevator
 
 
 How to Bench Press 225 pounds for ten repetitions  
-
+- Let numreps = 0
 - Walk over to the left side of the bar on the bench press
 - Remove two 45 pound weights from the bench press weight holder and place them on the left side of the bar 
 - Walk over to the right side of the bar on the bench press 
@@ -25,11 +25,13 @@ How to Bench Press 225 pounds for ten repetitions
 - Place both hands on the bar
 - exert pressure on bar with both hands to remove the bar and weights from the rack
 - push the bar off the rack 
-- while the bar is off the rack 
+// - while the bar is off the rack
+- until numreps equals 10 OR you cannot lift anymore 
 	-allow the bar to move down to your chest 
 	-push the bar back off your chest, upward so the weight is lifted and your elbows are perpendicular. 
 	-control the weight and slowly and let the bar travel back down to your chest
-	-push the bar back off your chest again, upward so the weights are lifted and your elbows are perpendicular.   
+	-push the bar back off your chest again, upward so the weights are lifted and your elbows are perpendicular. 
+	- numbers = numreps + 1
 -if you have allowed the bar to move down to your chest and back upward so your elbows are perpendicular ten times
        -place the bar back on the rack.
 -else continue the above steps until you reached ten repetitions. 
