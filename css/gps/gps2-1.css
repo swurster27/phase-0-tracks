@@ -1,18 +1,10 @@
-<<<<<<< HEAD
 .column-1, .column-2 {
-=======
- .column-1,.column-2 {
->>>>>>> fa63e0f6c6197a5ada348bad4f16d81057607d8b
   background-color: red;
   margin: 2%;
   padding: 2%;
   border: solid black 2px;
   display: inline-block;
-<<<<<<< HEAD
-  vertical-align:top;
-=======
   vertical-align: top;
->>>>>>> fa63e0f6c6197a5ada348bad4f16d81057607d8b
   width: 40%;
 }
 
@@ -32,10 +24,5 @@ header, footer {
   text-align: center;
   margin-top: 1%;
   margin-bottom: 1%;
-<<<<<<< HEAD
-  padding :15px 10px 15px 10px;
-=======
   padding: 15px 10px 15px 10px;
-
-
->>>>>>> fa63e0f6c6197a5ada348bad4f16d81057607d8b
+}
