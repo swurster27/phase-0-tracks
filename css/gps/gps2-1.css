@@ -1,0 +1,27 @@
+.column-1, .column-2 {
+  background-color: red;
+  margin: 2%;
+  padding: 2%;
+  border: solid black 2px;
+  display: inline-block;
+  vertical-align:top;
+  width: 40%;
+}
+
+.column-2 {
+  background-color: green;
+}
+
+.column-2 > article {
+  margin-top: 6.5px;
+  padding-top: 6.0px;
+}
+
+header, footer {
+  border: dashed black 2px;
+  font-style: italic;
+  background-color: #71cbff;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding :15px 10px 15px 10px;
