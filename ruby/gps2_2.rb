@@ -1,0 +1,1 @@
+puts "checking to see if merged correctly for guided pairing session"
