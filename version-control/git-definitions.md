@@ -16,4 +16,4 @@ A commit creates a save point in Git. A good commit message is a message that co
 
 * What is a merge conflict?
 
-A merge conflict is when your current branch and the branch you want to merge into the current branch have diverged. This would take place when you gave commits in your current branch which are not in the other branch.
+A merge conflict is when your current branch and the branch you want to merge into the current branch have diverged. This would take place when you give commits in your current branch which are not in the other branch's.
