@@ -14,3 +14,5 @@ a branch is a copy of the master version that can be worked on without messing u
 a committ is making a change to the branch you are working on, basically they are saves you make to your branch. A committ message should explain what was changed in the file with a clear and consice sentence.
 
 A merge conflict is when you merge files and there are conlficts within the files, such as two people made changes to the same line on the file. Git doesn't know what to do so you have to tell it which one is correct.
+
+this is a change to this file.
