@@ -4,9 +4,12 @@
 
 .job{
   background-color: #e9e5dc;
-  border-radius: rounded corners;
+  border-radius: 2em;
   padding-top: 10px;
   padding-bottom:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
 }
 
 .list{
