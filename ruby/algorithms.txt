@@ -1,0 +1,33 @@
+robot beats the elevator
+	- use sensor to locate elevator buttons and press the up button.
+	- when doors open walk forward into elevator.
+	- when wall is reached turn around and locate elevator floor buttons.
+	- determine which floor is needed per the floor directory to the left of the buttons.
+	- select floor number that correesponds to the candy store floor from the direectory.
+	- wait for elevator to go up and stop.
+	- walk forward and leave the elevator.
+
+
+Taking a shower
+	- enter bathroom and turn on lights.
+	- shut and lock bathroom door.
+	- pull back shower curtain.
+	- turn hot water handle half way.
+	- turn cold water handle a quarter of the way.
+	- test water temperature.
+	- adjust if needed.
+	- Remove clothing
+	- step into shower.
+	- open soap bottle.
+	- pour soup into hand.
+	- disperse soup all over body.
+	- rinse soup off of body. 
+	- open 2 in 1 shampoo and conditioner bottle.
+	- rub shampoo into hair.
+	- rinse out hair.
+	- Turn hot and cold water handles off.
+	- open shower curtains.
+	- grab towel.
+	- dry off using towel.
+	- locate new clothes
+	- put on new clothes.
