@@ -7,11 +7,12 @@
   # print the list to the console [can you use one of your other methods here?]
 # output: [what data type goes here, array or hash?]
 
+#refracting: changed item_hash to grocery_list
 def create_list(list_of_items)
 	items = list_of_items.split(' ')
-	item_hash = {}
+	grocery_list = {}
 	items.each do |item|
-		item_hash[item] = 1
+		grocery_list[item] = 1
 	end
 	print_list(item_hash)
 end
