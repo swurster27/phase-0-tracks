@@ -1,3 +1,5 @@
+require_relative 'Dancer'
+
 describe Dancer do
   let(:dancer) { Dancer.new("Misty Copeland", 33) }
 
@@ -39,4 +41,23 @@ describe Dancer do
     expect(dancer.begin_next_dance).to eq "Now dancing with Mikhail Baryshnikov."
     expect(dancer.card).to eq ["Anna Pavlova"]
   end
+
+  it "stops adding names to queue when there are 10 names in queue." do
+    dancer.queue_dance_with("partner1")
+    dancer.queue_dance_with("partner2")
+    dancer.queue_dance_with("partner3")
+    dancer.queue_dance_with("partner4")
+    dancer.queue_dance_with("partner5")
+    dancer.queue_dance_with("partner6")
+    dancer.queue_dance_with("partner7")
+    dancer.queue_dance_with("partner8")
+    dancer.queue_dance_with("partner9")
+    dancer.queue_dance_with("partner10")
+    dancer.queue_dance_with("partner11")
+    expect(dancer.card).to eq ["partner1", "partner2", "partner3", "partner4", "partner5", "partner6", "partner7", "partner8", "partner9", "partner10"]
+    expect(dancer.begin_next_dance).to eq ("Now dancing with partner1.")
+    dancer.queue_dance_with("partner11")
+    expect(dancer.card).to eq ["partner2", "partner3", "partner4", "partner5", "partner6", "partner7", "partner8", "partner9", "partner10", "partner11"]
+  end
+
 end
